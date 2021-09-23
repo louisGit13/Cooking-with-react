@@ -1,10 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import RecipeList from "./RecipeList";
 import "../css/app.css";
 import { v4 as uuidv4 } from "uuid";
+import RecipeEdit from "./RecipeEdit";
+
+//Better way of passing props from one component to another
+export const RecipeContext = React.createContext();
+
+const LOCAL_STORAGE_KEY = 'cookingWithReact.recipes';
 
 function App() {
   const [recipes, setRecipes] = useState(sampleRecipes);
+
+  //loads a copy of our recipe list from our local storage
+  useEffect(() => {
+    const recipeJSON = localStorage.getItem(LOCAL_STORAGE_KEY)
+    if (recipeJSON != null) setRecipes(JSON.parse(recipeJSON));
+  }, [])
+
+  //saves a copy of our recipe list to our local storage
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(recipes))
+  }, [recipes])
+
+  const recipeContextValue = {
+    //javaScript key:value shorthand for when key === value
+    handleRecipeAdd,
+    handleRecipeDelete,
+  };
 
   function handleRecipeAdd() {
     const newRecipe = {
@@ -26,12 +49,14 @@ function App() {
   }
 
   function handleRecipeDelete(id) {
-    setRecipes(recipes.filter(recipe => recipe.id !== id))
+    setRecipes(recipes.filter((recipe) => recipe.id !== id));
   }
 
   return (
-    //Passed in 'recipe' prop to 'RecipeList' to access 'sampleRecipes' dataset
-    <RecipeList recipes={recipes} handleRecipeAdd={handleRecipeAdd} handleRecipeDelete={handleRecipeDelete}/>
+    <RecipeContext.Provider value={recipeContextValue}>
+      <RecipeList recipes={recipes} />
+      <RecipeEdit />
+    </RecipeContext.Provider>
   );
 }
 

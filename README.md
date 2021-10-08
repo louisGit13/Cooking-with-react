@@ -1,3 +1,32 @@
+# TINY README Template
+
+This is a TINY (TINY Is Not YART ([Yet](https://github.com/CarsonChen1129/README-template) [Another](https://gist.github.com/zsim0n/1d943a0f3e5af59e1e1d91a3a1e9eae1) [README](https://github.com/matiassingers/awesome-readme/issues/117) Template)) README template. Put a brief description of the project here, and optionally include a screenshot with a nice frame:
+
+<div align="center">
+  <kbd>
+    <img src="https://i.imgur.com/zdY3ZC9.png" />
+  </kbd>
+</div>
+
+## Description
+
+Longer description explaining the rationale/intent behind the project, what it's good for, and how it works. If the next two subsections are short enough, they can be merged up into this block—perhaps as bulleted lists.
+
+### Features
+
+- Create a recipe list
+- Edit individual recipes 
+- Remove and add recipes as desired
+
+### Built with
+
+- React
+- Bootstrap 4
+
+### License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,6 +73,31 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Back matter
+
+### Legal disclaimer
+
+Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+
+### Acknowledgements
+
+Thanks to all who helped inspire this template.
+
+### See also
+
+- [A simple README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+- [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [A sample README for all your GitHub projects](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+- [A simple README.md template to kickstart projects](https://github.com/me-and-company/readme-template)
+
+### To-do
+
+- [ ] Still need to do this
+- [ ] ~~Decided not to do this~~
+- [x] Done!
+
+
 
 ### Code Splitting
 

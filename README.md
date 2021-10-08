@@ -1,6 +1,6 @@
-# TINY README Template
+# Recipe-App
 
-This is a TINY (TINY Is Not YART ([Yet](https://github.com/CarsonChen1129/README-template) [Another](https://gist.github.com/zsim0n/1d943a0f3e5af59e1e1d91a3a1e9eae1) [README](https://github.com/matiassingers/awesome-readme/issues/117) Template)) README template. Put a brief description of the project here, and optionally include a screenshot with a nice frame:
+Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired:
 
 <div align="center">
   <kbd>
@@ -16,7 +16,8 @@ Longer description explaining the rationale/intent behind the project, what it's
 
 - Create a recipe list
 - Edit individual recipes 
-- Remove and add recipes as desired
+- Remove and add recipes
+- Update or remove ingredients
 
 ### Built with
 
@@ -82,7 +83,7 @@ Usage of this tool for attacking targets without prior mutual consent is illegal
 
 ### Acknowledgements
 
-Thanks to all who helped inspire this template.
+WebDevSimplified.
 
 ### See also
 
@@ -93,9 +94,9 @@ Thanks to all who helped inspire this template.
 
 ### To-do
 
-- [ ] Still need to do this
+- [ ] Insert app functionality
 - [ ] ~~Decided not to do this~~
-- [x] Done!
+- [x] Visual styling is done!
 
 
 

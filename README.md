@@ -10,7 +10,7 @@ Front-end recipe list application where users can create a recipe list, also edi
 
 ## Description
 
-An app building excercise used to learn React hooks such as UseState() and UseEffect, and how to propogate between different states and components on a webpage using React.
+An app building excercise used to learn React hooks such as UseState() and UseEffect by propogating between different states and components on a webpage using React.
 
 ### Features
 

@@ -89,6 +89,7 @@ WebDevSimplified.
 
 - [ ] Set up states variables
 - [ ] Create recipes function
+- [ ] Edit recipes function
 - [ ] Delete recipes function
 - [ ] Add ingredients function
 - [ ] Update changes function

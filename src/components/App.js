@@ -11,6 +11,10 @@ const LOCAL_STORAGE_KEY = 'cookingWithReact.recipes';
 
 function App() {
   const [recipes, setRecipes] = useState(sampleRecipes);
+  const [selectedRecipeId, setSelectedRecipeId] = useState();
+
+  // returns undefined if no recipe is found
+  const selectedRecipe = recipes.find((recipe => recipe.id === selectedRecipeId));
 
   //loads a copy of our recipe list from our local storage
   useEffect(() => {
@@ -27,7 +31,12 @@ function App() {
     //javaScript key:value shorthand for when key === value
     handleRecipeAdd,
     handleRecipeDelete,
+    handleRecipeSelect
   };
+
+  function handleRecipeSelect(id) {
+    setSelectedRecipeId(id)
+  }
 
   function handleRecipeAdd() {
     const newRecipe = {
@@ -55,7 +64,7 @@ function App() {
   return (
     <RecipeContext.Provider value={recipeContextValue}>
       <RecipeList recipes={recipes} />
-      <RecipeEdit />
+      {selectedRecipe && <RecipeEdit recipe={selectedRecipe}/>}
     </RecipeContext.Provider>
   );
 }

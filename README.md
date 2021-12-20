@@ -1,22 +1,23 @@
-# TINY README Template
+# Recipe-App
 
-This is a TINY (TINY Is Not YART ([Yet](https://github.com/CarsonChen1129/README-template) [Another](https://gist.github.com/zsim0n/1d943a0f3e5af59e1e1d91a3a1e9eae1) [README](https://github.com/matiassingers/awesome-readme/issues/117) Template)) README template. Put a brief description of the project here, and optionally include a screenshot with a nice frame:
+Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired:
 
 <div align="center">
   <kbd>
-    <img src="https://i.imgur.com/zdY3ZC9.png" />
+    <img src="./src/images/recipe-app.jpg" />
   </kbd>
 </div>
 
 ## Description
 
-Longer description explaining the rationale/intent behind the project, what it's good for, and how it works. If the next two subsections are short enough, they can be merged up into this block—perhaps as bulleted lists.
+An app building excercise used to learn React hooks such as UseState() and UseEffect by propogating between different states and components on a webpage using React.
 
 ### Features
 
 - Create a recipe list
 - Edit individual recipes 
-- Remove and add recipes as desired
+- Remove and add recipes
+- Update or remove ingredients
 
 ### Built with
 
@@ -82,20 +83,18 @@ Usage of this tool for attacking targets without prior mutual consent is illegal
 
 ### Acknowledgements
 
-Thanks to all who helped inspire this template.
-
-### See also
-
-- [A simple README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-- [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [A sample README for all your GitHub projects](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
-- [A simple README.md template to kickstart projects](https://github.com/me-and-company/readme-template)
+WebDevSimplified.
 
 ### To-do
 
-- [ ] Still need to do this
-- [ ] ~~Decided not to do this~~
-- [x] Done!
+- [ ] Set up states variables
+- [ ] Create recipes function
+- [ ] Delete recipes function
+- [ ] Add ingredients function
+- [ ] Update changes function
+- [ ] List recipes function
+- [ ] Set up routes
+- [x] Visual styling is done!
 
 
 

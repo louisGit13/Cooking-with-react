@@ -87,14 +87,14 @@ WebDevSimplified.
 
 ### To-do
 
-- [ ] Set up states variables
-- [ ] Create recipes function
+- [x] Set up states variables
+- [x] Create recipes function
 - [x] Edit recipes function
-- [ ] Delete recipes function
-- [ ] Add ingredients function
-- [ ] Update changes function
-- [ ] List recipes function
-- [ ] Set up routes
+- [x] Delete recipes function
+- [x] Add ingredients function
+- [x] Update changes function
+- [x] List recipes function
+- [x] Set up routes
 - [x] Visual styling is done!
 
 

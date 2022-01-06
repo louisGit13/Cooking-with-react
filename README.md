@@ -21,7 +21,8 @@ An app building excercise used to learn React hooks such as UseState() and UseEf
 
 ### Built with
 
-- React
+- CSS
+- JavaScript
 - Bootstrap 4
 
 ### License

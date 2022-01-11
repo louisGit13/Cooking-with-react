@@ -13,12 +13,20 @@ function App() {
   const [recipes, setRecipes] = useState(sampleRecipes);
   const [selectedRecipeId, setSelectedRecipeId] = useState();
 
+  const recipeContextValue = {
+    //javaScript key:value shorthand for when key === value
+    handleRecipeAdd,
+    handleRecipeDelete,
+    handleRecipeSelect,
+    handleRecipeChange,
+  };
+
   // returns undefined if no recipe is found
   const selectedRecipe = recipes.find(
     (recipe) => recipe.id === selectedRecipeId
   );
 
-  //loads a copy of our recipe list from our local storage
+  //loads a copy of our recipe list from our local storage; try loading from API
   useEffect(() => {
     const recipeJSON = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (recipeJSON != null) setRecipes(JSON.parse(recipeJSON));
@@ -29,13 +37,7 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(recipes));
   }, [recipes]);
 
-  const recipeContextValue = {
-    //javaScript key:value shorthand for when key === value
-    handleRecipeAdd,
-    handleRecipeDelete,
-    handleRecipeSelect,
-    handleRecipeChange,
-  };
+  
 
   function handleRecipeSelect(id) {
     setSelectedRecipeId(id);

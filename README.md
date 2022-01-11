@@ -1,6 +1,7 @@
 # Recipe-App
 
-Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired:
+Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired.
+<br />
 
 <div align="center">
   <kbd>
@@ -21,7 +22,8 @@ An app building excercise used to learn React hooks such as UseState() and UseEf
 
 ### Built with
 
-- React
+- CSS
+- JavaScript
 - Bootstrap 4
 
 ### License

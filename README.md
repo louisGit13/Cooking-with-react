@@ -5,7 +5,7 @@ Front-end recipe list application where users can create a recipe list, also edi
 
 <div align="center">
   <kbd>
-    <img src="./src/images/recipe-app.jpg" />
+    <img src="./src/images/recipeAppScreen.png" />
   </kbd>
 </div>
 

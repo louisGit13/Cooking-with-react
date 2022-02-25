@@ -1,6 +1,17 @@
 # Recipe-App
 
-Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired.
+  <p align="center">
+    Front-end recipe list application where users can create a recipe list, also edit, remove and add recipes as desired.
+    <br />
+    <a href="https://github.com/louisbrent1992/Recipe-App-Project"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://lbprojects-recipe-app.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/louisbrent1992/Recipe-App-Project/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/louisbrent1992/Recipe-App-Project/issues">Request Feature</a>
+  </p>
 <br />
 
 <div align="center">
